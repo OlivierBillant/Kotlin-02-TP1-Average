@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e35e20-52d6-4902-9631-ffa36bc7bfde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Calculs.java" afterDir="false" />
+    <list default="true" id="e0e35e20-52d6-4902-9631-ffa36bc7bfde" name="Changes" comment="ADD toutes fonctions moyenne fonctionnelles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -71,8 +70,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657006794326</updated>
-      <workItem from="1657006798546" duration="2958000" />
+      <workItem from="1657006798546" duration="5672000" />
     </task>
+    <task id="LOCAL-00001" summary="ADD toutes fonctions moyenne fonctionnelles">
+      <created>1657009850384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657009850385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +95,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD toutes fonctions moyenne fonctionnelles" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD toutes fonctions moyenne fonctionnelles" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

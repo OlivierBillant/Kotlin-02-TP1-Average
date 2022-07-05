@@ -1,7 +1,10 @@
+import java.math.BigInteger
+
 fun main(args: Array<String>) {
     println("Hello World!")
 //    calculMoyenneFixe()
-    calculMoyenneVariable()
+//    calculMoyenneVariable()
+    grainDeRiz()
 //    println("Program arguments: ${args.joinToString()}")
 
 }
@@ -9,7 +12,7 @@ fun main(args: Array<String>) {
 fun calculMoyenneFixe() {
     println("Entrez le nombre de valeurs :")
     var nombreValeurs = readLine()!!.toInt()
-    var listeNotes = arrayListOf<Int>()
+    var listeNotes = ArrayList<Int>()
     var totalNotes = 0
     println("Vous souhaitez calculer la moyenne de $nombreValeurs notes")
 
@@ -26,7 +29,7 @@ fun calculMoyenneFixe() {
 }
 
 fun calculMoyenneVariable() {
-    var listeNotes = arrayListOf<Int>()
+    var listeNotes = ArrayList<Int>()
     var totalNotes = 0
     println("Calculez la moyenne des notes suivantes")
     do {
@@ -40,4 +43,18 @@ fun calculMoyenneVariable() {
     println("La moyenne est de " + totalNotes / (listeNotes.size) + "/20")
 
 
+}
+
+fun grainDeRiz() {
+    var grainsDeRiz:Double = 1.0
+    val facteur = 2
+    var nombreDeCases = 64
+    println("Vous souhaitez connaitre le nombre de grains de riz sur la case :")
+    nombreDeCases = readLine()!!.toInt()
+
+//    println("Vous aurez $grainsDeRiz grains de riz sur la case 1")
+    for (i in 2..nombreDeCases) {
+        grainsDeRiz *= facteur
+    }
+        println("Vous aurez $grainsDeRiz grains de riz sur la case $nombreDeCases")
 }
