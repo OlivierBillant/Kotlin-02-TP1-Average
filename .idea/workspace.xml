@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e35e20-52d6-4902-9631-ffa36bc7bfde" name="Changes" comment="ADD toutes fonctions moyenne fonctionnelles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="e0e35e20-52d6-4902-9631-ffa36bc7bfde" name="Changes" comment="ADD Grains de riz" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657006794326</updated>
-      <workItem from="1657006798546" duration="5672000" />
+      <workItem from="1657006798546" duration="5858000" />
     </task>
     <task id="LOCAL-00001" summary="ADD toutes fonctions moyenne fonctionnelles">
       <created>1657009850384</created>
@@ -79,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657009850385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD Grains de riz">
+      <created>1657013451230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657013451230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADD toutes fonctions moyenne fonctionnelles" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD toutes fonctions moyenne fonctionnelles" />
+    <MESSAGE value="ADD Grains de riz" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Grains de riz" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
