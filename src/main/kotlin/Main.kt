@@ -69,21 +69,17 @@ fun grainDeRiz() {
     println("Deux puissance 64-1 est égal à : $deuxPuissance63")
 
 }fun grainDeRiz2() {
-    var grainsDeRiz: Double = 1.0
-    val facteur:Double = 2.0
+    var grainsDeRiz: BigInteger = BigInteger.ONE
+    val facteur:BigInteger = BigInteger.TWO
     var nombreDeCases = 64
-    var totalGrainsDeRiz: Double = 0.0
+    var totalGrainsDeRiz: BigInteger = BigInteger.ZERO
     println("Vous souhaitez connaitre le nombre de grains de riz sur la case :")
     nombreDeCases = readLine()!!.toInt()
 
     for (i in 1..nombreDeCases) {
         grainsDeRiz = facteur.pow(i-1)
-        totalGrainsDeRiz += grainsDeRiz
+        totalGrainsDeRiz = totalGrainsDeRiz.add(grainsDeRiz)
 //        println("Vous aurez $grainsDeRiz grains de riz sur la case $i")
     }
     println("Vous aurez $grainsDeRiz grains de riz sur la case $nombreDeCases")
     println("Vous aurez obtenu $totalGrainsDeRiz grains de riz sur la case $nombreDeCases")
-    var deuxPuissance63:Double = 2.0
-    deuxPuissance63 = deuxPuissance63.pow((64-1))
-    println("Deux puissance 64-1 est égal à : $deuxPuissance63")
-}
