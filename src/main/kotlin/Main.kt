@@ -70,16 +70,17 @@ fun grainDeRiz() {
 
 }fun grainDeRiz2() {
     var grainsDeRiz: BigInteger = BigInteger.ONE
-    val facteur:BigInteger = BigInteger.TWO
+    val facteur: BigInteger = BigInteger.TWO
     var nombreDeCases = 64
     var totalGrainsDeRiz: BigInteger = BigInteger.ZERO
     println("Vous souhaitez connaitre le nombre de grains de riz sur la case :")
     nombreDeCases = readLine()!!.toInt()
 
     for (i in 1..nombreDeCases) {
-        grainsDeRiz = facteur.pow(i-1)
+        grainsDeRiz = facteur.pow(i - 1)
         totalGrainsDeRiz = totalGrainsDeRiz.add(grainsDeRiz)
 //        println("Vous aurez $grainsDeRiz grains de riz sur la case $i")
     }
     println("Vous aurez $grainsDeRiz grains de riz sur la case $nombreDeCases")
     println("Vous aurez obtenu $totalGrainsDeRiz grains de riz sur la case $nombreDeCases")
+}
