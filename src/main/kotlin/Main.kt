@@ -1,11 +1,13 @@
 import java.math.BigInteger
+import java.util.DoubleSummaryStatistics
 import kotlin.math.pow
 
 fun main(args: Array<String>) {
     println("Hello World!")
 //    calculMoyenneFixe()
 //    calculMoyenneVariable()
-    grainDeRiz()
+//    grainDeRiz()
+    grainDeRiz2()
 //    println("Program arguments: ${args.joinToString()}")
 
 }
@@ -60,10 +62,28 @@ fun grainDeRiz() {
         totalGrainsDeRiz += grainsDeRiz
 //        println("Vous aurez $grainsDeRiz grains de riz sur la case $i")
     }
-    println("Vous aurez  $grainsDeRiz grains de riz sur la case $nombreDeCases")
+    println("Vous aurez $grainsDeRiz grains de riz sur la case $nombreDeCases")
     println("Vous aurez obtenu $totalGrainsDeRiz grains de riz sur la case $nombreDeCases")
     var deuxPuissance63:Double = 2.0
     deuxPuissance63 = deuxPuissance63.pow((nombreDeCases-1))
     println("Deux puissance 64-1 est égal à : $deuxPuissance63")
-    println("")
+
+}fun grainDeRiz2() {
+    var grainsDeRiz: Double = 1.0
+    val facteur:Double = 2.0
+    var nombreDeCases = 64
+    var totalGrainsDeRiz: Double = 0.0
+    println("Vous souhaitez connaitre le nombre de grains de riz sur la case :")
+    nombreDeCases = readLine()!!.toInt()
+
+    for (i in 1..nombreDeCases) {
+        grainsDeRiz = facteur.pow(i-1)
+        totalGrainsDeRiz += grainsDeRiz
+//        println("Vous aurez $grainsDeRiz grains de riz sur la case $i")
+    }
+    println("Vous aurez $grainsDeRiz grains de riz sur la case $nombreDeCases")
+    println("Vous aurez obtenu $totalGrainsDeRiz grains de riz sur la case $nombreDeCases")
+    var deuxPuissance63:Double = 2.0
+    deuxPuissance63 = deuxPuissance63.pow((64-1))
+    println("Deux puissance 64-1 est égal à : $deuxPuissance63")
 }
