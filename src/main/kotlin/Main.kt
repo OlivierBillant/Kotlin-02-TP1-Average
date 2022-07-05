@@ -1,4 +1,5 @@
 import java.math.BigInteger
+import kotlin.math.pow
 
 fun main(args: Array<String>) {
     println("Hello World!")
@@ -46,15 +47,22 @@ fun calculMoyenneVariable() {
 }
 
 fun grainDeRiz() {
-    var grainsDeRiz:Double = 1.0
+    var grainsDeRiz: Double = 1.0
     val facteur = 2
     var nombreDeCases = 64
+    var totalGrainsDeRiz: Double = 1.0
     println("Vous souhaitez connaitre le nombre de grains de riz sur la case :")
     nombreDeCases = readLine()!!.toInt()
 
 //    println("Vous aurez $grainsDeRiz grains de riz sur la case 1")
     for (i in 2..nombreDeCases) {
         grainsDeRiz *= facteur
+        totalGrainsDeRiz += grainsDeRiz
+//        println("Vous aurez $grainsDeRiz grains de riz sur la case $i")
     }
-        println("Vous aurez $grainsDeRiz grains de riz sur la case $nombreDeCases")
+    println("Vous aurez  $grainsDeRiz grains de riz sur la case $nombreDeCases")
+    println("Vous aurez obtenu $totalGrainsDeRiz grains de riz sur la case $nombreDeCases")
+    var deuxPuissance63:Double = 2.0
+    deuxPuissance63 = deuxPuissance63.pow((nombreDeCases-1))
+    println("Deux puissance 64-1 est égal à : $deuxPuissance63")
 }
