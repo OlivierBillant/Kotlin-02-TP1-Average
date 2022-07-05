@@ -65,4 +65,5 @@ fun grainDeRiz() {
     var deuxPuissance63:Double = 2.0
     deuxPuissance63 = deuxPuissance63.pow((nombreDeCases-1))
     println("Deux puissance 64-1 est égal à : $deuxPuissance63")
+    println("")
 }
